@@ -8,7 +8,6 @@ jenkins:
   - name: "master"
   markupFormatter: "plainText"
   mode: NORMAL
-  myViewsTabBar: "standard"
   numExecutors: 2
   primaryView:
     all:
