@@ -25,4 +25,3 @@ jenkins:
         - "myView"
         - preferredProvider:
             providerId: "default"
-        - "timezone"
