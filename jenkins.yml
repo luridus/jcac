@@ -1,27 +1,5 @@
 jenkins:
-  systemMessage: "JENKINS YAML 2"
-  crumbIssuer:
-    standard:
-      excludeClientIPFromCrumb: false
-  disableRememberMe: false
-  labelAtoms:
-  - name: "master"
-  markupFormatter: "plainText"
+  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin - DEVELOP \n\n"
+  numExecutors: 3
+  scmCheckoutRetryCount: 2
   mode: NORMAL
-  myViewsTabBar: "standard"
-  numExecutors: 2
-  primaryView:
-    all:
-      name: "all"
-  securityRealm:
-    local:
-      allowsSignup: false
-      enableCaptcha: false
-      users:
-      - id: "admin"
-        name: "Fabricio Boechat"
-        properties:
-        - "apiToken"
-        - "myView"
-        - preferredProvider:
-            providerId: "default"
