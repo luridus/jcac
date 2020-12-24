@@ -5,7 +5,7 @@ pipeline {
     stage('testng') {
       steps {
         script {
-          echo 'testing.1111...'
+          echo 'testing.2222...'
         }
       }
     }
